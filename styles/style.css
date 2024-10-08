@@ -1,6 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-
 .page {
   background-image: var(--background-image);
   background-repeat: no-repeat;
@@ -357,8 +356,7 @@
 }
 
 @media (width < 768px) and (width >=375px) {
-
-  .section__image{
+  .section__image {
     width: 100%;
     height: 100%;
     padding-left: 10px;
@@ -404,8 +402,8 @@
   }
 }
 
-@media (width >= 1024px)  {
-  .secction__image-list{
+@media (width >= 1024px) {
+  .secction__image-list {
     display: grid;
     gap: 20px;
   }
@@ -420,7 +418,7 @@
     object-fit: cover;
     object-position: center;
   }
-  
+
   .image_ice-cream {
     width: 100%;
     height: 100%;
@@ -430,7 +428,7 @@
     object-fit: cover;
     object-position: center;
   }
-  
+
   .image_tape {
     width: 100%;
     height: 100%;
@@ -440,7 +438,7 @@
     object-fit: cover;
     object-position: center;
   }
-  
+
   .image_books {
     width: 100%;
     height: 100%;
@@ -449,7 +447,7 @@
     object-fit: cover;
     object-position: center;
   }
-  
+
   .image_street {
     grid-column: 2/4;
     grid-row: 3/4;
