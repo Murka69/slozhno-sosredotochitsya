@@ -2,7 +2,7 @@
 
 .page {
   background-image: var(--background-image);
-  background-color: var(--color_text);
+  background-color: var(--color_bg);
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -199,6 +199,12 @@
   padding: 63px 20px 0;
 }
 
+@media (width < 768px) and (width >=375px) {
+  .main {
+    padding-top: 40px;
+  }
+}
+
 .section__list {
   display: grid;
   gap: 20px;
@@ -225,6 +231,12 @@
   display: grid;
   padding-top: 80px;
   grid-template-columns: repeat(1, 1fr);
+}
+
+@media (width < 768px) and (width >=375px) {
+  .section__article__list {
+    padding-top: 50px;
+  }
 }
 
 .concentration {
@@ -269,7 +281,7 @@
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
-  width: 50%;
+  width: 340px;
   line-height: 130%;
   color: var(--color_head-text);
 }
@@ -277,6 +289,11 @@
 @media (width < 768px) and (width >= 375px) {
   .section__article {
     padding: 50px 10px;
+  }
+
+  .section__title {
+    width: 100%;
+    padding-bottom: 20px;
   }
 }
 .title__decor {

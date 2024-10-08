@@ -10,6 +10,7 @@
   --main-font: "IBM Plex mono", sans-serif;
   --color_rec: #ff0070;
   --color_section: #f1b2ce;
+  --color_bg:#000028;
 }
 /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -28,6 +29,7 @@
     --hover-color: 1px solid rgba(255, 0, 112, 0.4);
     --corner-color: var(--color_head);
     --color_rec: #ff0070;
+    --color_bg:#000028;
     --main-font: "IBM Plex mono", sans-serif;
   }
 }
