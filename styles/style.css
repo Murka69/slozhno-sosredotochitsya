@@ -201,7 +201,6 @@
 
 .section__list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -291,8 +290,8 @@
 .section__text {
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 18px;
   line-height: 130%;
+  padding-top: 10px;
   color: var(--color_section);
 }
 .section__image {
