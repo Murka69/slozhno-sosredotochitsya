@@ -1,12 +1,38 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
 .page.theme_light {
+  --color_text:#353430;
+  --color_head:#FF8DCB;
+  --color_head-text:var(--color_text);
+  --color_title:#FFC2E6;
+  --color_main:#F1B2CE;
+  --color_section:var(--color_text);
+  --title_shadow: 4px 4px 0 var(--color_head);
+  --background-image:url(/images/cover-image-light.png);
+  --hover-color:1px solid rgba(50, 49, 45, 0.4);
+  --corner-color:var(--color_text);
+  --main-font:"IBM Plex mono",sans-serif;
+  --size_mobile:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --size_desktop:clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+@media (prefers-color-scheme: light) {
+  :root{
+    --color_title:#FFC2E6;
+    --color_head:#FF8DCB;
+    --color_text:#353430;
+    --color_head-text:var(--color_text);
+    --background-image:url(/images/cover-image-light.png);
+    --title-shadow:4px 4px 0 var(--color_head);
+    --hover-color:1px solid rgba(50, 49, 45, 0.4);
+    --corner-color:var(--color_text);
+  }
+}
+
+.page.theme_light .header__rec{
+  display: none;
+}
+
