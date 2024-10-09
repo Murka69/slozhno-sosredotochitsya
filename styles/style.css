@@ -207,13 +207,11 @@
 .main {
   display: grid;
   padding: 0 20px 80px;
-  gap: 80px;
 }
 
 @media (width < 768px) and (width >=375px) {
   .main {
-    padding:40px 10px 0;
-    gap: 40px;
+    padding: 40px 10px 0;
   }
 }
 
@@ -232,6 +230,7 @@
   .section__list {
     display: flex;
     flex-wrap: wrap;
+    padding-block-start: 40px;
     width: 100%;
   }
   .section__list__item {
@@ -241,6 +240,7 @@
 
 .section__article__list {
   display: grid;
+  padding: 80px 0;
   grid-template-columns: repeat(1, 1fr);
 }
 
@@ -255,6 +255,11 @@
 }
 
 @media (width < 768px) and (width>= 375px) {
+  .section__article__list {
+    padding-block-start: 50px;
+    padding-block-end: 50px;
+  }
+
   .section__article__item {
     display: grid;
   }
@@ -266,11 +271,10 @@
   }
 }
 
-.section__article {
-}
 
 .section__list__advice {
   display: grid;
+  padding-block-start: 20px;
   gap: 20px;
 }
 
@@ -311,7 +315,7 @@
 .section__image {
   display: grid;
   gap: 20px;
-  padding-bottom: 60px;
+  padding: 10px 20px 60px;
 }
 
 .section__image-list {
@@ -497,4 +501,3 @@
     padding: 258px 14px;
   }
 }
-
