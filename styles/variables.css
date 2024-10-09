@@ -15,5 +15,5 @@
 }
 
 .page.theme_auto .header__rec {
-  display: none;
+  visibility: hidden;
 }

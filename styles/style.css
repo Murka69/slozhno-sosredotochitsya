@@ -164,6 +164,7 @@
   color: var(--color_text);
   align-self: flex-end;
   font-weight: 700;
+  margin-top: 140px;
   width: 50%;
 }
 
@@ -248,6 +249,10 @@
   .section__article__list {
     padding: 140px 0 0;
   }
+
+  .section__list{
+    padding-right: 25px;
+  }
 }
 
 .concentration {
@@ -292,7 +297,7 @@
 
 @media (width >= 1024px) {
   .section__list__advice {
-    padding-block-start: 120px;
+    padding-block-start: 140px;
   }
 }
 
@@ -325,7 +330,7 @@
 .section__image {
   display: grid;
   gap: 20px;
-  padding: 10px 20px 60px;
+  padding: 0px 20px 60px;
 }
 
 .section__image-list {
@@ -431,7 +436,7 @@
 
 @media (width >= 1024px) {
   .section__image {
-    padding-block-start: 120px;
+    padding-block-start: 159px;
   }
 
   .secction__image-list {
