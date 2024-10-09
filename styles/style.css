@@ -25,12 +25,11 @@
   }
 }
 
-@media (width >=1024px){
-  .header__title{
+@media (width >=1024px) {
+  .header__title {
     margin: -2%;
   }
-
-  .header__text{
+  .header__text {
     margin-block-start: 35px;
   }
 }
@@ -95,7 +94,6 @@
     left: 4px;
   }
 }
-
 
 .header__theme-menu {
   padding-top: 20px;
@@ -278,7 +276,7 @@
     padding-left: 6px;
   }
 
-  .section__list__item{
+  .section__list__item {
     padding-left: 6px;
     padding-top: 3px;
   }
@@ -469,8 +467,7 @@
 }
 
 @media (width >= 1024px) {
-
-  .section__image{
+  .section__image {
     padding: 0 10px 60px;
   }
   .secction__image-list {
