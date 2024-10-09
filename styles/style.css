@@ -211,7 +211,7 @@
 
 @media (width < 768px) and (width >=375px) {
   .main {
-    padding: 40px 10px 0;
+    padding: 0 10px 0;
   }
 }
 
@@ -230,7 +230,6 @@
   .section__list {
     display: flex;
     flex-wrap: wrap;
-    padding-block-start: 40px;
     width: 100%;
   }
   .section__list__item {
@@ -256,7 +255,6 @@
 
 @media (width < 768px) and (width>= 375px) {
   .section__article__list {
-    padding-block-start: 50px;
     padding-block-end: 50px;
   }
 
@@ -274,7 +272,7 @@
 
 .section__list__advice {
   display: grid;
-  padding-block-start: 20px;
+  padding-block-start: 50px;
   gap: 20px;
 }
 
@@ -297,7 +295,6 @@
 @media (width < 768px) and (width >= 375px) {
   .section__title {
     width: 100%;
-    padding-bottom: 20px;
   }
 }
 .title__decor {
