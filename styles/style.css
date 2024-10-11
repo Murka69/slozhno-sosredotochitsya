@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  margin: 0 auto;
+  margin: 0;
   background-image: var(--background-image);
   background-color: var(--color_bg);
   background-repeat: no-repeat;
@@ -12,17 +12,13 @@
 }
 
 .header {
-  display: block;
-  height: 100vh;
-  min-height: 768px;
+  display: grid;
+  min-block-size: 100vh;
   position: relative;
   padding: 0 20px;
 }
 
 @media (width >=1024px) {
-  .header__title {
-    margin: -2%;
-  }
   .header__text {
     margin-block-start: 35px;
   }
@@ -201,7 +197,6 @@
   color: var(--color_title);
   text-shadow: var(--title_shadow);
   font-size: var(--size_desktop);
-  margin: -2.5%;
 }
 
 @media (width < 768px) and (width >= 375px) {
