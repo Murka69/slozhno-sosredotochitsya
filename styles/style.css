@@ -13,9 +13,9 @@
 
 .header {
   display: grid;
-  min-block-size: 100vh;
+  height: 100vh;
   position: relative;
-  width: 100%;
+  padding: 0 20px;
 }
 
 @media (width >=1024px) {
@@ -54,7 +54,7 @@
   content: "";
   position: absolute;
   left: 20px;
-  top: 700px;
+  top: 960px;
   width: 25px;
   height: 25px;
   border-left: 1px solid var(--corner-color);
@@ -96,7 +96,7 @@
 
 @media (width >= 1024px) {
   .decorated-zone::before {
-    top: 970px;
+    top: 725px;
   }
 
   .decorated-zone__ft::before {
@@ -197,6 +197,7 @@
   color: var(--color_title);
   text-shadow: var(--title_shadow);
   font-size: var(--size_desktop);
+  line-height: 82.5%;
 }
 
 @media (width < 768px) and (width >= 375px) {
@@ -226,7 +227,7 @@
   display: flex;
   flex-direction: column;
   padding: 200px 0 183px;
-  gap: 149px;
+  gap: 152px;
 }
 
 @media (width >= 1024px) {
@@ -240,7 +241,6 @@
   .header__section {
     padding-block-start: 80px;
     padding-block-end: 40px;
-    margin: -2%;
     gap: 64px;
   }
 
