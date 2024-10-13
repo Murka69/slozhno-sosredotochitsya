@@ -4,7 +4,7 @@
   --color_head-text: var(--color_head);
   --color_title: #db00ff;
   --title_shadow: 4px 4px 0 var(--color_head);
-  --background-image: url(/images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
   --corner-color: var(--color_head);
   --main-font: "IBM Plex mono", sans-serif;
@@ -25,7 +25,7 @@
     --color_title: #db00ff;
     --color_section: #f1b2ce;
     --title_shadow: 4px 4px 0 var(--color_head);
-    --background-image: url(/images/cover-image-dark.png);
+    --background-image: url(../images/cover-image-dark.png);
     --hover-color: 1px solid rgba(255, 0, 112, 0.4);
     --corner-color: var(--color_head);
     --color_rec: #ff0070;

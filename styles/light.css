@@ -7,7 +7,7 @@
   --color_main: #f1b2ce;
   --color_section: var(--color_text);
   --title_shadow: 4px 4px 0 var(--color_head);
-  --background-image: url(/images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
   --hover-color: 1px solid rgba(50, 49, 45, 0.4);
   --corner-color: var(--color_text);
   --main-font: "IBM Plex mono", sans-serif;
@@ -25,7 +25,7 @@
     --color_head: #ff8dcb;
     --color_text: #353430;
     --color_head-text: var(--color_text);
-    --background-image: url(/images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
     --title-shadow: 4px 4px 0 var(--color_head);
     --hover-color: 1px solid rgba(50, 49, 45, 0.4);
     --corner-color: var(--color_text);
@@ -37,3 +37,6 @@
   visibility: hidden;
 }
 
+.page.theme_auto .header__rec {
+  visibility: hidden;
+}
