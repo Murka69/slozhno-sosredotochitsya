@@ -3,19 +3,24 @@
   --color_head: #ff0070;
   --color_head-text: var(--color_head);
   --color_title: #db00ff;
-  --title_shadow: 4px 4px 0 var(--color_head);
+  --title_shadow:4px 4px 0 var(--color_head);
+  --link_shadow:#ff0070;
   --background-image: url(../images/cover-image-dark.png);
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
   --corner-color: var(--color_head);
   --main-font: "IBM Plex mono", sans-serif;
   --color_rec: #ff0070;
   --color_section: #f1b2ce;
-  --color_bg:#000028;
+  --color_bg: #000028;
 }
 /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+.theme_dark .header__theme-menu-button:hover {
+  border: 1px solid rgba(255, 0, 112, 0.4);
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -24,12 +29,16 @@
     --color_head-text: var(--color_head);
     --color_title: #db00ff;
     --color_section: #f1b2ce;
-    --title_shadow: 4px 4px 0 var(--color_head);
+    --title_shadow:4px 4px 0 var(--color_head);
+    --link_shadow:#ff0070;
     --background-image: url(../images/cover-image-dark.png);
     --hover-color: 1px solid rgba(255, 0, 112, 0.4);
     --corner-color: var(--color_head);
     --color_rec: #ff0070;
-    --color_bg:#000028;
+    --color_bg: #000028;
     --main-font: "IBM Plex mono", sans-serif;
+  }
+  .theme_dark .header__theme-menu-button:hover {
+    border: 1px solid rgba(255, 0, 112, 0.4);
   }
 }
