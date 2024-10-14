@@ -189,8 +189,7 @@
   align-self: center;
   font-weight: 700;
   font-size: 18px;
-  max-inline-size: 491px;
-  max-block-size: 71px;
+  width: 50%;
 }
 
 .header__section {
